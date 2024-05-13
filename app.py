@@ -1,22 +1,13 @@
 import logging, asyncio, sys
+import handlers, keyboards
 
-from loader import dp, bot, db
-import handlers
-from utils.notify_admins import on_startup_notify
+from loader import dp, bot, i18n
 
-async def main() -> None:    
-    # botning adminlariga xabar yuborish 
-    await on_startup_notify(bot)
+from aiogram.utils.i18n import FSMI18nMiddleware
 
-    # botnign boshlang'ich buyruqlarini o'rnatish
-    
-    # Ma'lumotlar bazasini yaratish
-    try:
-        ... # yangi table larni yaratish
-    except Exception as err:
-        logging.exception(err)
+async def main() -> None:
 
-    # 
+    dp.update.outer_middleware.register(FSMI18nMiddleware(i18n=i18n))
     await dp.start_polling(bot)
 
 

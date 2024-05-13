@@ -1,0 +1,56 @@
+# English translations for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-05-14 02:25+0500\n"
+"PO-Revision-Date: 2024-05-14 02:24+0500\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: handlers/user/start.py:18
+msgid "Tilni tanlang"
+msgstr "Select language"
+
+#: handlers/user/start.py:25
+msgid "O'zbek"
+msgstr "Uzbek"
+
+#: handlers/user/start.py:25
+msgid "Ingliz"
+msgstr "English"
+
+#: handlers/user/start.py:26
+msgid "{lang} til tanlandi"
+msgstr "{lang} language selected"
+
+#: handlers/user/start.py:31
+msgid "Bo'limni tanlang"
+msgstr "Select section"
+
+#: keyboards/default/menu.py:11
+msgid "Ish joyi kerak"
+msgstr "I need work"
+
+#: keyboards/default/menu.py:11
+msgid "Xodim kerak"
+msgstr "I need employee"
+
+#: keyboards/default/menu.py:11
+msgid "Sherik kerak"
+msgstr "I need partner"
+
+#: keyboards/default/menu.py:11
+msgid "Xizmat ko'rsatish"
+msgstr "Service"
+
